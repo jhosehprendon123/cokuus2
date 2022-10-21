@@ -31,7 +31,7 @@ const Home = () =>  {
         <div className="row justify-content-center mt-10 mt-md-24">
             <div className="col-lg-12 text-lg-center mb-n20 mb-md-n40 position-relative overlap-10 container-hero-img">
               <div className="position-relative overlap-10">
-					<img style={{marginTop: "-120px", marginBottom: "20px"}} className='hero-img' alt="cokuus_emma_1" src={require('../images/hero_emma_cokuus_circle2.png')} />
+					<img style={{marginTop: "-120px", marginBottom: "20px"}} className='hero-img' alt="cokuus_emma_1" src={require('../images/hero_emma_cokuus_circle3.png')} />
               </div>
                 <div className="d-none d-xl-block position-absolute top-10 start-0 transform translate-x-n1/2 w-64 h-64 svg-fluid text-white opacity-20">
                     <svg viewBox="0 0 232 168" fill="none" xmlns="http://www.w3.org/2000/svg">
