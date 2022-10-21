@@ -11,7 +11,7 @@ const Home = () =>  {
                   {/* <h2 className="ls-tight font-bolder text-white py-2 px-2 first-title my-2 display-6">¿Te Preocupa que tus Hijos No Comen Saludable?</h2> */}
                   <h1 className="ls-tight font-bolder display-4 text-white my-3"><span class="first-title">NO más Estrés</span> Durante la Comida</h1>
                   <h2 className="ls-tight font-bolder display-4 text-white mb-10 display-6">
-          Logra que tus Hijos Disfruten de los Alimentos Naturales y que <span className="d-inline-block py-1 px-2 bg-success mx-2">Coman con Placer</span>
+          Logra que tus Hijos Disfruten de los Alimentos Naturales y que <span className="d-inline-block py-1 px-2 bg-success">Coman con Placer</span>
                   </h2>
                   {/* <h2 className="ls-tight font-bolder display-4 text-white mb-10 display-6">
           Los Motivamos a Disfrutar de Alimentos Naturales de manera<span className="d-inline-block py-1 px-2 bg-success mx-2">Divertida</span>
@@ -31,7 +31,7 @@ const Home = () =>  {
         <div className="row justify-content-center mt-10 mt-md-24">
             <div className="col-lg-12 text-lg-center mb-n20 mb-md-n40 position-relative overlap-10 container-hero-img">
               <div className="position-relative overlap-10">
-					<img style={{marginTop: "-120px", marginBottom: "20px"}} className='hero-img' alt="cokuus_emma_1" src={require('../images/hero_emma_cokuus_circle3.png')} />
+					<img style={{marginTop: "-120px", marginBottom: "20px"}} className='hero-img' alt="cokuus_emma_1" src={require('../images/hero_emma_cokuus_circle3.webp')} />
               </div>
                 <div className="d-none d-xl-block position-absolute top-10 start-0 transform translate-x-n1/2 w-64 h-64 svg-fluid text-white opacity-20">
                     <svg viewBox="0 0 232 168" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +196,7 @@ const Home = () =>  {
                 </div>
                 <div class="col-lg-6 video-demo">
                     <div style={{maxHeight: "350px"}} class="rounded shadow-4 bg-surface-primary border p-2 me-lg-5 position-relative">
-							<iframe style={{width: "100%", height: "320px"}} title="guiaEmails" class="img-fluid rounded" src="https://www.youtube.com/embed/WcTgLYQucw0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+						<iframe style={{width: "100%", height: "320px"}} title="guiaEmails" class="img-fluid rounded" src="https://www.youtube.com/embed/rlONE7h1h4k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
             </div>
@@ -253,7 +253,7 @@ const Home = () =>  {
                     </ul>
                 </div>
                 <div class="col-lg-5">
-                    <img className='hero-img' alt="cokuus_familia" src={require('../images/cokuus-comida.png')} />
+                    <img className='hero-img' alt="cokuus_familia" src={require('../images/cokuus-comida.webp')} />
                 </div>
             </div>
         </div>
@@ -264,15 +264,11 @@ const Home = () =>  {
                     {/* <h5 class="h5 mb-5 text-uppercase text-primary">
                         Step 2
                     </h5> */}
-                    <h1 class="ls-tight font-bolder mb-5">
-											Unión familiar
-                    </h1>
-                    <p class="lead text-muted">
-											El amor y la atención es lo que más anhelan nuestros hijos. Crea momentos de calidad mientras cocinan, aprenden y se divierten juntos. 
-										</p>
+                    <h1 class="ls-tight font-bolder mb-5">Unión familiar </h1>
+                    <p class="lead text-muted">El amor y la atención es lo que más anhelan nuestros hijos. Crea momentos de calidad mientras cocinan, aprenden y se divierten juntos.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img className='hero-img' alt="cokuus_familia" src={require('../images/cokuus-familia.png')} />
+                    <img className='hero-img' alt="cokuus_familia" src={require('../images/cokuus-familia.webp')} />
                 </div>
             </div>
         </div>
@@ -451,7 +447,7 @@ const Home = () =>  {
                   </div>
               </div>
               <div>
-                  <span class="h5 font-semibold mb-0">Taller práctico para que tu y tu hijo se diviertan mientras preparan recetas sencillas, deliciosas y saludables.</span>
+                  <span class="h5 font-semibold mb-0">Taller práctico para que se diviertan mientras preparan recetas sencillas, deliciosas y saludables.</span>
               </div>
           </div>
       </li>
