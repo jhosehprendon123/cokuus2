@@ -9,13 +9,14 @@ const Home = () =>  {
 					{/* <p className='title-style'>cokuus</p> */}
                 <div>
                   {/* <h2 className="ls-tight font-bolder text-white py-2 px-2 first-title my-2 display-6">¿Te Preocupa que tus Hijos No Comen Saludable?</h2> */}
-                  <h1 className="ls-tight font-bolder display-4 text-white my-3">Reduce el Consumo de <span class="first-title">Procesados</span> en tus Hijos con <span className="d-inline-block py-1 px-2 bg-success">Snacks Saludables</span></h1>
+                  <h1 className="ls-tight font-bolder display-4 text-white my-3"><span class="first-title">NO más Estrés</span> Durante la Comida</h1>
                   <h2 className="ls-tight font-bolder display-4 text-white mb-10 display-6">
-                  Evita Enfermedades, Potencia su Desarrollo Físico y Mental
+          Logra que tus Hijos Disfruten de los Alimentos Naturales y que <span className="d-inline-block py-1 px-2 bg-success">Coman con Placer</span>
                   </h2>
+                  <h2 style={{marginTop: "-10px"}} className="ls-tight font-bolder display-4 mb-2 text-white display-6">Comienza Mejorando los Snacks</h2>
                   <div className="mx-sm-n2">
-                      <a href="#programa" style={{marginTop: "-20px", fontWeight: "bold", position: "relative", zIndex: "100", fontSize: "20px"}} className="btn btn-lg btn-primary bg-shade-primary mx-sm-2 w-full w-sm-auto">Comprar Ebook $12</a>
-                      <p style={{color: "white", textAlign: "center"}}>Incluye Recetario</p>
+                      <a href="https://pay.hotmart.com/F78709844Q?bid=1674241976176" style={{ fontWeight: "bold", position: "relative", zIndex: "100", fontSize: "20px"}} className="btn btn-lg btn-primary bg-shade-primary mx-sm-2 w-full w-sm-auto">Comprar Ebook $15</a>
+                      <p style={{color: "white", textAlign: "center"}}>Incluye 20 Deliciosas Recetas</p>
                   </div>
                 </div>
             </div>
@@ -125,8 +126,13 @@ const Home = () =>  {
 </div>
 {/* Section 2 */}
 <div class="first-block">
-    <p class="h3 font-semibold mb-0 mt-2 text-muted">"No hay problema en consumir un postre de vez en cuando, el problema es que nuestros hijos están desayunando “postres” y consumiendo grandes cantidades de azúcar a través de la comida ultra-procesada todos los días."</p>
+    <p class="h4 font-semibold text-muted">"No hay problema en consumir un postre de vez en cuando, el problema es que nuestros hijos están desayunando “postres” y consumiendo grandes cantidades de azúcar a través de la comida ultra-procesada todos los días. Se hacen adictos al dulce y no comen alimentos reales."</p>
     <hr style={{width: "110px", height: "3px", margin: "auto", marginTop: "20px"}}/>
+</div>
+<div style={{backgroundColor: "#5C60F4", padding: "20px 0", margin: "30px 0", textAlign: "center"}}>
+<div style={{width: "70%", margin: "auto"}}>
+    <p class="h3 font-semibold mb-1 text-white">Este Ebook te enseñará a preparar e introducir snacks más saludables a tus hijos. Esto te permitirá reducir su consumo de azúcar y podrás ver como mejora su alimentación en general.</p>
+</div>
 </div>
 
 
@@ -252,7 +258,7 @@ const Home = () =>  {
                         Step 2
                     </h5> */}
                     <h1 class="ls-tight font-bolder mb-5">Promueve a comer Mejor </h1>
-                    <p class="lead text-muted">Reducir el consumo de Procesados motiva a tus hijos a comer alimentos reales y a dejar de pedir snacks que no son nutritivos.</p>
+                    <p class="lead text-muted">Reducir el consumo de ultra-procesados y dulces, motiva a tus hijos a comer alimentos reales y dejar de pedir snacks que no son nutritivos.</p>
                 </div>
                 <div class="col-lg-6">
                     <img className='hero-img' style={{marginBottom: "-50px"}} alt="cokuus_familia" src={require('../images/cokuus-familia.webp')} />
@@ -262,13 +268,24 @@ const Home = () =>  {
     </div>
 </div>
 <div>
+
+<div className='row m-auto justify-content-center container mb-4'>
+    <div className='row justify-content-center'>
+        <img className='col-lg-2' alt="recipe-1" src={require('../images/snack-saludable-1.webp')} />
+        <img className='col-lg-2'  alt="recipe-1" src={require('../images/snack-saludable-2.webp')} />
+        <img className='col-lg-2'  alt="recipe-1" src={require('../images/snack-saludable-3.webp')} />
+        <img className='col-lg-2'  alt="recipe-1" src={require('../images/snack-saludable-4.webp')} />
+    </div>
+		
+</div>
 	
 <div className='row m-auto justify-content-center'>	
   <div style={{margin:"0px auto 20px", textAlign: "center"}}>
-    <a href="#programa" style={{fontWeight: "bold", position: "relative", zIndex: "100", fontSize: "20px"}} className="btn btn-lg btn-success mx-sm-2 w-full w-sm-auto mb-6">Comprar Ebook $12</a>
-    <p style={{color: "black", marginTop: "-20px", textAlign: "center"}}>Incluye Recetario</p>
+    <a href="https://pay.hotmart.com/F78709844Q?bid=1674241976176" style={{fontWeight: "bold", position: "relative", zIndex: "100", fontSize: "20px"}} className="btn btn-lg btn-success mx-sm-2 w-full w-sm-auto mb-6">Comprar Ebook $15</a>
+    <p style={{color: "black", marginTop: "-20px", textAlign: "center"}}>Incluye 20 Deliciosas Recetas</p>
   </div>		
 </div>
+
 
 </div>
 
@@ -277,12 +294,16 @@ const Home = () =>  {
 		<h1 class="ls-tight font-bolder mb-5">Preguntas Frequentes</h1>
 		<br></br>
 		<div className='lead'>
-			<p style={{fontWeight: "bold"}}>¿Es seguro cocinar con mi peque?</p>
-			<p>Sí, tomando las medidas de precaución. Una de ellas es siempre, siempre acompañar a nuestros peques mientras cocinamos. En el taller aprenderán métodos de seguridad e higiene en la cocina.</p>
+            <p style={{fontWeight: "bold"}}>¿Por qué comenzar por los snacks?</p>
+			<p>Lo que más piden y disfrutan nuestros hijos son los snacks. Lamentablemente no son nutritivos y contienen altas cantidades de azúcares. Si reducimos la cantidad de azúcar que consumen, van a controlar su ansiedad y adicción por lo dulce. Van a dejar de llenarse con snacks y pedirán comida real.</p>
+            <p>Son además fáciles de reemplazar por opciones saludables porque puedes hacer el proceso divertido y usar opciones que siguen siendo deliciosas.</p>
+            <p>Es el primer paso, para luego comenzar a introducir comida real (vegetales, proteínas, carbohidratos).</p>
 			<br></br>
-			<p style={{fontWeight: "bold"}}>¿Me tomará mucho tiempo cocinar con mi peque y luego limpiar?</p>
-			<p>No te miento, tomará mas tiempo de lo que te toma cocinar sola sobretodo. Por eso té sugerimos hacerlo cuando tengan un poco más de tiempo para disfrutar la actividad, como el fin de semana o festivo.</p>
-			<p>Es una oportunidad para enseñarle sobre orden y trabajo en equipo. Con el tiempo se convertirá en un gran ayudante. </p>
+			<p style={{fontWeight: "bold"}}>¿Es seguro cocinar con mi peque?</p>
+			<p>Todas las recetas son seguras, puedes involucrar a tus hijos en el proceso de preparación. De hecho, es nuestra recomendación. Al involucrarlos, se motivan a comer lo que han preparado contigo.</p>
+			<br></br>
+			<p style={{fontWeight: "bold"}}>¿Cuándo comenzará a comer comida real?</p>
+			<p>Debes ser paciente en el proceso y evitar presionar a tu hijo. Al comenzar por los snacks logramos que el proceso sea más divertido y fácil. En pocos dias tu hijo comenzará a probar las preparaciones.</p>
 			<br></br>
 		</div>
 		</div>
