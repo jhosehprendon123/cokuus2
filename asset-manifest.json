@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6388820a.css",
-    "main.js": "/static/js/main.b20bb0d2.js",
-    "static/media/snack-saludable-4.webp": "/static/media/snack-saludable-4.c8f6d655ea7ba13ab6fe.webp",
-    "static/media/snack-saludable-1.webp": "/static/media/snack-saludable-1.2822c11cd6ed0ba3ac47.webp",
-    "static/media/snacks-saludables.webp": "/static/media/snacks-saludables.0e3ffcc81a13b5df28f6.webp",
-    "static/media/snack-saludable-2.webp": "/static/media/snack-saludable-2.a4f9afd51db6f3cba90a.webp",
-    "static/media/snack-saludable-3.webp": "/static/media/snack-saludable-3.1b784ba8e9527cfd040d.webp",
-    "static/media/hero_emma_cokuus_circle3.webp": "/static/media/hero_emma_cokuus_circle3.bd7512d89e12d944c0a2.webp",
-    "static/media/cokuus-familia.webp": "/static/media/cokuus-familia.e810dfe8130a7cf57679.webp",
-    "static/media/book-cover-snacks-saludables.webp": "/static/media/book-cover-snacks-saludables.9bba9068490197daa09f.webp",
-    "index.html": "/index.html",
-    "main.6388820a.css.map": "/static/css/main.6388820a.css.map",
-    "main.b20bb0d2.js.map": "/static/js/main.b20bb0d2.js.map"
+    "main.css": "/cokuus2/static/css/main.6388820a.css",
+    "main.js": "/cokuus2/static/js/main.ebf3ea89.js",
+    "static/media/snack-saludable-4.webp": "/cokuus2/static/media/snack-saludable-4.c8f6d655ea7ba13ab6fe.webp",
+    "static/media/snack-saludable-1.webp": "/cokuus2/static/media/snack-saludable-1.2822c11cd6ed0ba3ac47.webp",
+    "static/media/snacks-saludables.webp": "/cokuus2/static/media/snacks-saludables.0e3ffcc81a13b5df28f6.webp",
+    "static/media/snack-saludable-2.webp": "/cokuus2/static/media/snack-saludable-2.a4f9afd51db6f3cba90a.webp",
+    "static/media/snack-saludable-3.webp": "/cokuus2/static/media/snack-saludable-3.1b784ba8e9527cfd040d.webp",
+    "static/media/hero_emma_cokuus_circle3.webp": "/cokuus2/static/media/hero_emma_cokuus_circle3.bd7512d89e12d944c0a2.webp",
+    "static/media/cokuus-familia.webp": "/cokuus2/static/media/cokuus-familia.e810dfe8130a7cf57679.webp",
+    "static/media/book-cover-snacks-saludables.webp": "/cokuus2/static/media/book-cover-snacks-saludables.9bba9068490197daa09f.webp",
+    "index.html": "/cokuus2/index.html",
+    "main.6388820a.css.map": "/cokuus2/static/css/main.6388820a.css.map",
+    "main.ebf3ea89.js.map": "/cokuus2/static/js/main.ebf3ea89.js.map"
   },
   "entrypoints": [
     "static/css/main.6388820a.css",
-    "static/js/main.b20bb0d2.js"
+    "static/js/main.ebf3ea89.js"
   ]
 }
